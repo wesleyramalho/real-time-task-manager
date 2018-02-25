@@ -2,7 +2,7 @@ import io from 'socket.io-client';
 
 class Socket {
     constructor() {
-        this.socket = io()
+        this.socket = io('http://localhost:4001')
     }
 
     emit = (event, data) => {

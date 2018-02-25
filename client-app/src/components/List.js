@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ImmutablePropTypes from 'react-immutable-proptypes';
 import { fromJS } from 'immutable';
 import { Droppable } from 'react-beautiful-dnd';
