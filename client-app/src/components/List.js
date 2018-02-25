@@ -32,7 +32,25 @@ export default class List extends Component {
                                             {list.get('items').size}
                                         </span>
                                     </div>
-                                    <i className="fa fa-fw fa-caret-down"/>
+                                    <i className="fa fa-fw fa-caret-down" />
+                                    <div className={css.body}>
+                                        <div
+                                            className={css.wrapper}
+                                            ref={provided.innerRef}
+                                        >
+                                            {
+                                                list.get('items').map((item) => {
+                                                    return (
+                                                        <Item
+                                                            key={item.get('id')}
+                                                            item={item}
+                                                        />
+                                                    )
+                                                })
+                                            }
+                                            {provided.placeholder}
+                                        </div>
+                                    </div>
                                 </div>
                             )
                         }
@@ -41,7 +59,4 @@ export default class List extends Component {
             </div>
         )
     }
-
-
-
 }
