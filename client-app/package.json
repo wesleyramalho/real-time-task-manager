@@ -8,6 +8,7 @@
     "react": "^16.2.0",
     "react-beautiful-dnd": "^5.0.0",
     "react-dom": "^16.2.0",
+    "react-immutable-proptypes": "^2.1.0",
     "react-scripts": "1.1.1",
     "socket.io": "^2.0.4"
   },
