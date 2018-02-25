@@ -1,0 +1,45 @@
+:local .list .column {
+  border: solid 1px #dedede;
+  border-radius: 4px;
+  width: 320px;
+  min-height: 300px;
+  background-color: #FAF8FA;
+}
+:local .list .column .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid 1px #dedede;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+:local .list .column .title .count {
+  height: 20px;
+  min-width: 20px;
+  text-align: center;
+  color: #7a7d81;
+  display: inline-block;
+  background-color: #dedede;
+  font-size: 11px;
+  padding: 3px 5px;
+  border-radius: 20px/2;
+  margin-left: 8px;
+}
+:local .list .column .title i {
+  color: #bcc2c5;
+}
+:local .list .column .body {
+  overflow: auto;
+  height: 400px;
+  padding: 10px;
+}
+:local .list .column .body::-webkit-scrollbar {
+  display: none;
+}
+:local .list .column .body .wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
