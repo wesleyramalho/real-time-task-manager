@@ -5,32 +5,20 @@ This application was created with [Socket IO](https://socket.io).
 ## Front-end - ReactJS
 
 This front-end project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Beyond the default dependencies from create-react-app, it uses:
+
+* [Classnames] (https://www.npmjs.com/package/classnames)
+* Font-awesome
+* [Immutable] (https://www.npmjs.com/package/immutable)
+* [Lodash] (https://www.npmjs.com/package/lodash) 
+* [React-beautiful-dnd] (https://www.npmjs.com/package/react-beautiful-dnd)
+* [React-immutable-proptypes] (https://www.npmjs.com/package/react-immutable-proptypes)
+* [Socket.io] (https://www.npmjs.com/package/socket.io)
 
 
 ## Back-end - NodeJS
 
-The server application is based on NodeJS and Express.
-<!---
+The server application uses the following dependencies:
 
-## Lists
-
-### Ordered list
-
-1. Item 1
-2. A second item
-3. Number 3
-4. Ⅳ
-
-*Note: the fourth item uses the Unicode character for [Roman numeral four][2].*
-
-### Unordered list
-
-* An item
-* Another item
-* Yet another item
-* And there's more...
-
-## Paragraph modifiers
-
-### Code block
--->
+* Express
+* Socket.IO
