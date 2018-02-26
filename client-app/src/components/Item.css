@@ -1,0 +1,87 @@
+:local .item {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #dedede;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: move;
+  user-select: none;
+  outline: none !important;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+:local .item .user {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+:local .item .user .avatar {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #dedede;
+  margin-right: 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+:local .item .user .avatar::before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  top: 6px;
+  left: 11px;
+}
+:local .item .user .avatar::after {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  bottom: -8px;
+  left: 7px;
+}
+:local .item .user .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+:local .item .user .info .title {
+  color: #bcc2c5;
+  font-size: 13px;
+}
+:local .item .user .actions {
+  color: #bcc2c5;
+  margin-left: 10px;
+}
+:local .item .meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid 1px #dedede;
+  font-size: 12px;
+  padding: 7.1428571428571px;
+  color: #bcc2c5;
+}
+:local .item .meta .stats {
+  display: flex;
+  flex-direction: row;
+}
+:local .item .meta .stats > *:not(:last-child) {
+  margin-right: 8px;
+}
+:local .item .meta .stats > * i {
+  margin-right: 3px;
+}
+:local .item .meta .stats .grade {
+  color: #fff;
+  background-color: #2EAA81;
+  font-size: 10px;
+  padding: 3px 5px;
+  border-radius: 6px;
+}

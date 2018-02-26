@@ -5,7 +5,7 @@ import { Droppable } from 'react-beautiful-dnd';
 
 import Item from './Item';
 
-import css from './List.less';
+import css from './List.css';
 
 export default class List extends Component {
     static propTypes = {

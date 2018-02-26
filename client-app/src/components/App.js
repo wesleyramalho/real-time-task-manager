@@ -56,6 +56,8 @@ export default class App extends Component {
       toIndex: destination.index,
     }
 
+    console.log(payload, 'payload')
+
     //send the move event to server
     socket.emit('move-applicant', payload)
 

@@ -19,7 +19,8 @@ export default class Item extends Component {
     }
 
     render() {
-        const { item } = this.props
+        const { item } = this.props;
+        console.log('items', item)
         return (
             <Draggable draggableId={item.get('id')}>
                 {
