@@ -20,5 +20,5 @@ Beyond the default dependencies from create-react-app, it uses:
 
 The server application uses the following dependencies:
 
-* Express
-* Socket.IO
+* [Express](https://www.npmjs.com/package/express)
+* [Socket.io](https://www.npmjs.com/package/socket.io)
