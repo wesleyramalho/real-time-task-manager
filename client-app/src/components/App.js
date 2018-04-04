@@ -14,17 +14,17 @@ export default class App extends Component {
     lists: fromJS([
       {
         id: 'contacted',
-        title: 'Contactés',
+        title: 'Time A',
         items: getApplicants(3),
       },
       {
         id: 'meet',
-        title: 'A rencontrer',
+        title: 'Time B',
         items: []
       },
       {
         id: 'interview',
-        title: 'Entretien',
+        title: 'Time C',
         items: getApplicants(1)
       },
     ])

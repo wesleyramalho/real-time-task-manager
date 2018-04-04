@@ -1,25 +1,25 @@
 import _ from 'lodash'
 
 const names = [
-    'Wesley Ramalho',
-    'Akira',
+    'Wesley',
+    'Kenji',
     'Mil Grau',
     'Patrick',
-    'Kevin Dantas',
-    'Jonathan Bertoldi',
-    'Nayana Frizon',
-    'Helena Strada'
+    'Kevin',
+    'Jonathan',
+    'Nay',
+    'Gabriel'
 ]
 
 const titles = [
-    'Future Intranet Manager',
-    'Customer Group Agent',
-    'Forward Accounts Designer',
-    'Infrastructure Administrator',
-    'Accountability Specialist',
-    'Principal Security Developer',
-    'Central Group Analyst',
-    'Customer Data Architect',
+    'Senaiano Front-end',
+    'Senaiano Back-end',
+    'Senaiano Front-end',
+    'Senaiano Social Media',
+    'Senaiano Front-end',
+    'Senaiano Front-end',
+    'Senaiano Front-end',
+    'Senaiano Front-end', 
 ]
 
 let idCount = 0
